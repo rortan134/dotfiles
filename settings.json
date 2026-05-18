@@ -1,0 +1,208 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.occurrencesHighlight": "multiFile",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.experimental.expandableHover": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.addMissingImports": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.cursorBlinking": "phase",
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.detectIndentation": false,
+    "editor.dragAndDrop": false,
+    "editor.linkedEditing": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.42857,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.smoothScrolling": true,
+    "editor.copyWithSyntaxHighlighting": false,
+    "gitlens.mode.active": "zen",
+    "editor.guides.bracketPairs": true,
+    "editor.lineNumbers": "interval",
+    "workbench.tips.enabled": false,
+    "editor.minimap.autohide": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "editor.quickSuggestionsDelay": 0,
+    "editor.renderControlCharacters": false,
+    "editor.scrollbar.verticalScrollbarSize": 4,
+    "explorer.confirmDelete": false,
+    "errorLens.enabled": true,
+    "errorLens.enabledDiagnosticLevels": ["error", "info", "hint", "warning"],
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.removeLinebreaks": false,
+    "errorLens.scrollbarHackEnabled": true,
+    "files.insertFinalNewline": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.sortOrder": "type",
+    "files.trimTrailingWhitespace": true,
+    "files.autoSaveDelay": 3000,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/node_modules/**": true,
+        "**/build/**": true,
+        "**/dist/**": true,
+        "**/.next/**": true,
+        "**/env/**": true,
+        "**/venv/**": true,
+        "env-*": true
+    },
+    "files.readonlyInclude": {
+        "**/node_modules/**": true,
+        "**/package-lock.json": true,
+        "**/bun.lock": true,
+        "**/pnpm-lock.yaml": true,
+        "**/yarn.lock": true,
+        "**/Cargo.lock": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 4,
+    "search.exclude": {
+        "**/i18n/**": true,
+        "**/.next": true,
+        "**/data": true,
+        "**/dist": true,
+        ".build/**": true,
+        "out/**": true,
+        "**/node_modules": true,
+        "**/package-lock.json": true,
+        "**/pnpm-lock.yaml": true,
+        "**/target": true,
+        "**debug": true
+    },
+    "git.confirmNoVerifyCommit": false,
+    "git.openRepositoryInParentFolders": "always",
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "typescript.preferences.importModuleSpecifier": "project-relative",
+    "eslint.options": {
+        "extensions": [".js", ".jsx", ".mdx", ".ts", ".tsx"]
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "welcomePage",
+    "githubPullRequests.pullBranch": "never",
+    "redhat.telemetry.enabled": false,
+    "workbench.editor.customLabels.patterns": {
+        "**/page.tsx": "Page - ${dirname}",
+        "**/route.tsx": "Route - ${dirname}"
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.renderFinalNewline": "dimmed",
+    "crashReporting.enabled": "off",
+    "gitlens.telemetry.enabled": false,
+    "editor.minimap.maxColumn": 100,
+    "typescript.updateImportsOnPaste.enabled": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.tsserver.maxTsServerMemory": 2048,
+    "typescript.format.semicolons": "insert",
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "[Tokyo Night]": {
+            "rules": {
+                "*.mutable": {
+                    "fontStyle": "italic"
+                }
+            }
+        }
+    },
+    "terminal.integrated.gpuAcceleration": "on",
+    "typescript.preferences.useAliasesForRenames": false,
+    "javascript.preferences.useAliasesForRenames": false,
+    "editor.inlineSuggest.showToolbar": "always",
+    "workbench.settings.applyToAllProfiles": ["pdf-preview.default.scale"],
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "cursor.general.gitGraphIndexing": "enabled",
+    "cursor.cpp.enablePartialAccepts": true,
+    "markdown-preview-enhanced.enablePreviewZenMode": true,
+    "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+    "markdown-preview-enhanced.previewTheme": "atom-light.css",
+    "javascript.inlayHints.parameterNames.enabled": true,
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "window.confirmBeforeClose": "always",
+    "editor.accessibilitySupport": "off",
+    "cursor.composer.textSizeScale": 0.85,
+    "dependi.npm.informPatchUpdates": true,
+    "dependi.rust.informPatchUpdates": true,
+    "dependi.python.enabled": false,
+    "files.autoSave": "afterDelay",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.enablePreview": false,
+    "[tailwindcss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "scm.diffDecorationsGutterPattern": {
+        "added": true
+    },
+    "gitlens.ai.model": "gitkraken",
+    "gitlens.ai.gitkraken.model": "gemini:gemini-2.5-flash",
+    "workbench.editor.showTabs": "none",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    },
+    "window.autoDetectColorScheme": false,
+    "workbench.panel.defaultLocation": "right"
+}
